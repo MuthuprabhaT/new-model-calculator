@@ -1,0 +1,30 @@
+.head{
+    text-shadow: 0 0 20px rgb(235, 230, 85);
+}
+/* .calculator1{
+    max-width:335px ;
+    box-shadow: 0 0 20px rgb(135, 217, 202);
+} */
+.main{
+    height:auto;
+    width:310px;
+    text-align:center;
+}
+.btn{
+    height:auto;
+    width:40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(174, 174, 127);
+}
+@media(min-width:300px){
+    .calculator1{
+        max-width:335px ;
+        box-shadow: 0 0 20px rgb(135, 217, 202);
+    }
+}
+@media(max-width:290px){
+    .calculator1{
+        min-width:335px ;
+        box-shadow: 0 0 20px rgb(135, 217, 202);
+    }
+}
